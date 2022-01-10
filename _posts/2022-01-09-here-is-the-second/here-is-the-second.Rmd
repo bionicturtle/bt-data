@@ -1,21 +1,25 @@
 ---
-title: "A new distill site for R code snippets"
+title: "Here is the second"
 description: |
   A short description of the post.
 author:
   - name: David Harper
     url: https://bionicturtle.com
-date: 2022-01-09
+date: 2022-01-10
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-This is better setup ... 
 
 ```{r setup, include=TRUE}
 
 knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+mtcars %>% ggplot(aes(wt, mpg)) +
+  geom_point(size=4)
 
 ```
 

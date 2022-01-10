@@ -1,20 +1,20 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to BT data",
-    "description": "Welcome to our new blog, BT data. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2022-01-09-here-is-the-second/",
+    "title": "Here is the second",
+    "description": "A short description of the post.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "David Harper",
+        "url": "https://bionicturtle.com"
       }
     ],
-    "date": "2022-01-09",
+    "date": "2022-01-10",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-01-09T18:02:53-08:00",
-    "input_file": {}
+    "contents": "\r\n\r\n\r\nknitr::opts_chunk$set(echo = TRUE)\r\n\r\nlibrary(tidyverse)\r\n\r\nmtcars %>% ggplot(aes(wt, mpg)) +\r\n  geom_point(size=4)\r\n\r\n\r\n\r\n\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-01-09-here-is-the-second/here-is-the-second_files/figure-html5/setup-1.png",
+    "last_modified": "2022-01-09T18:26:18-08:00",
+    "input_file": "here-is-the-second.knit.md"
   },
   {
     "path": "posts/2022-01-09-a-new-distill-site-for-r-code-snippets/",
@@ -31,6 +31,6 @@
     "contents": "\r\nThis is better setup …\r\n\r\n\r\nknitr::opts_chunk$set(echo = TRUE)\r\n\r\n\r\n\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2022-01-09T18:17:37-08:00",
-    "input_file": "a-new-distill-site-for-r-code-snippets.knit.md"
+    "input_file": {}
   }
 ]
