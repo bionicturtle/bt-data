@@ -1,0 +1,24 @@
+---
+title: "A new distill site for R code snippets"
+description: |
+  A short description of the post.
+author:
+  - name: David Harper
+    url: https://bionicturtle.com
+date: 2022-01-09
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+This is better setup ... 
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+

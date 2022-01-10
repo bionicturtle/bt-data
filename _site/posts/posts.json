@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2022-01-09T18:02:53-08:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2022-01-09-a-new-distill-site-for-r-code-snippets/",
+    "title": "A new distill site for R code snippets",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "David Harper",
+        "url": "https://bionicturtle.com"
+      }
+    ],
+    "date": "2022-01-09",
+    "categories": [],
+    "contents": "\r\nThis is better setup …\r\n\r\n\r\nknitr::opts_chunk$set(echo = TRUE)\r\n\r\n\r\n\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-09T18:17:37-08:00",
+    "input_file": "a-new-distill-site-for-r-code-snippets.knit.md"
   }
 ]
